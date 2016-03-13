@@ -1,0 +1,75 @@
+## TidySet - tidy data set that includes the following variables:
+
+ActivityName	Activities performed by Subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+Subject	Subject who performed the activity for each window sample. Its range is from 1 to 30.
+tBodyAcc-mean()-X	Mean of the body acceleration , X axis 
+tBodyAcc-mean()-Y	Mean of the body acceleration , Y axis 
+tBodyAcc-mean()-Z	Mean of the body acceleration , Z axis 
+tBodyAcc-std()-X	Std Deviation of the body acceleration , X axis 
+tBodyAcc-std()-Y	Std Deviation of the body acceleration , Y axis 
+tBodyAcc-std()-Z	Std Deviation of the body acceleration , Z axis 
+tGravityAcc-mean()-X	Mean of the gravitity acceleration , X axis 
+tGravityAcc-mean()-Y	Mean of the gravitity acceleration , Y axis 
+tGravityAcc-mean()-Z	Mean of the gravitity acceleration , Z axis 
+tGravityAcc-std()-X	Std Deviation of the gravitity acceleration , X axis 
+tGravityAcc-std()-Y	Std Deviation of the gravitity acceleration , Y axis 
+tGravityAcc-std()-Z	Std Deviation of the gravitity acceleration , Z axis 
+tBodyAccJerk-mean()-X	Mean of the body acceleration jerk signal , X axis 
+tBodyAccJerk-mean()-Y	Mean of the body acceleration jerk signal , Y axis 
+tBodyAccJerk-mean()-Z	Mean of the body acceleration jerk signal , Z axis 
+tBodyAccJerk-std()-X	Std Deviation of the body acceleration jerk signal , X axis 
+tBodyAccJerk-std()-Y	Std Deviation of the body acceleration jerk signal , Y axis 
+tBodyAccJerk-std()-Z	Std Deviation of the body acceleration jerk signal , Z axis 
+tBodyGyro-mean()-X	Mean of the body angular velocity , X axis 
+tBodyGyro-mean()-Y	Mean of the body angular velocity , Y axis 
+tBodyGyro-mean()-Z	Mean of the body angular velocity , Z axis 
+tBodyGyro-std()-X	Std Deviation of the body angular velocity , X axis 
+tBodyGyro-std()-Y	Std Deviation of the body angular velocity , Y axis 
+tBodyGyro-std()-Z	Std Deviation of the body angular velocity , Z axis 
+tBodyGyroJerk-mean()-X	Mean of the body angular velocity jerk signal , X axis 
+tBodyGyroJerk-mean()-Y	Mean of the body angular velocity jerk signal , Y axis 
+tBodyGyroJerk-mean()-Z	Mean of the body angular velocity jerk signal , Z axis 
+tBodyGyroJerk-std()-X	Std Deviation of the body angular velocity jerk signal , X axis 
+tBodyGyroJerk-std()-Y	Std Deviation of the body angular velocity jerk signal , Y axis 
+tBodyGyroJerk-std()-Z	Std Deviation of the body angular velocity jerk signal , Z axis 
+tBodyAccMag-mean()	Mean of the body acceleration magnitud 
+tBodyAccMag-std()	Std Deviation of the body acceleration magnitud 
+tGravityAccMag-mean()	Mean of the gravitity acceleration  magnitud
+tGravityAccMag-std()	Std Deviation of the gravitity acceleration magnitud
+tBodyAccJerkMag-mean()	Mean of the body acceleration jerk signal  magnitud
+tBodyAccJerkMag-std()	Std Deviation of the body acceleration jerk signal magnitud 
+tBodyGyroMag-mean()	Mean of the body angular velocity  magnitud
+tBodyGyroMag-std()	Std Deviation of the body angular velocity magnitud
+tBodyGyroJerkMag-mean()	Mean of the body angular velocity jerk signal magnitud
+tBodyGyroJerkMag-std()	Std Deviation of the body angular velocity jerk signal magnitud
+fBodyAcc-mean()-X	Mean of the body acceleration (FFT) , X axis 
+fBodyAcc-mean()-Y	Mean of the body acceleration (FFT) , Y axis 
+fBodyAcc-mean()-Z	Mean of the body acceleration (FFT) , Z axis 
+fBodyAcc-std()-X	Std Deviation of the body acceleration (FFT) , X axis 
+fBodyAcc-std()-Y	Std Deviation of the body acceleration (FFT) , Y axis 
+fBodyAcc-std()-Z	Std Deviation of the body acceleration (FFT) , Z axis 
+fBodyAccJerk-mean()-X	Mean of the body acceleration jerk signal (FFT) , X axis 
+fBodyAccJerk-mean()-Y	Mean of the body acceleration jerk signal (FFT) , Y axis 
+fBodyAccJerk-mean()-Z	Mean of the body acceleration jerk signal (FFT) , Z axis 
+fBodyAccJerk-std()-X	Std Deviation of the body acceleration jerk signal (FFT) , X axis 
+fBodyAccJerk-std()-Y	Std Deviation of the body acceleration jerk signal (FFT) , Y axis 
+fBodyAccJerk-std()-Z	Std Deviation of the body acceleration jerk signal (FFT) , Z axis 
+fBodyGyro-mean()-X	Mean of the body angular velocity (FFT) , X axis 
+fBodyGyro-mean()-Y	Mean of the body angular velocity (FFT) , Y axis 
+fBodyGyro-mean()-Z	Mean of the body angular velocity (FFT) , Z axis 
+fBodyGyro-std()-X	Std Deviation of the body angular velocity (FFT) , X axis 
+fBodyGyro-std()-Y	Std Deviation of the body angular velocity (FFT) , Y axis 
+fBodyGyro-std()-Z	Std Deviation of the body angular velocity (FFT) , Z axis 
+fBodyAccMag-mean()	Mean of the body acceleration magnitud (FFT) 
+fBodyAccMag-std()	Std Deviation of the body acceleration magnitud (FFT) 
+fBodyBodyAccJerkMag-mean()	Mean of the body acceleration jerk signal  magnitud (FFT)
+fBodyBodyAccJerkMag-std()	Std Deviation of the body acceleration jerk signal magnitud (FFT) 
+fBodyBodyGyroMag-mean()	Mean of the body angular velocity  magnitud (FFT)
+fBodyBodyGyroMag-std()	Std Deviation of the body angular velocity magnitud (FFT)
+fBodyBodyGyroJerkMag-mean()	Mean of the body angular velocity jerk signal magnitud (FFT)
+fBodyBodyGyroJerkMag-std()	Std Deviation of the body angular velocity jerk signal magnitud (FFT)
+
+## TidySetAvr2 - tidy data set that includes the the average of each variable for each activity and each subject.
+ActivityName		Activities performed by Subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+Subject			Subject who performed the activity for each window sample. Its range is from 1 to 30.
+Average of the 66 variables in TidySet by Subject and Activity, i.e. tBodyAcc-mean()-X_Avrg

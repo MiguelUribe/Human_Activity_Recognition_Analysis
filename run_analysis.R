@@ -179,5 +179,7 @@ TidySetAvr <- summarize(TidySetAvr,
    `fBodyBodyGyroJerkMag-mean()_Avrg` = mean(`fBodyBodyGyroJerkMag-mean()`),
    `fBodyBodyGyroJerkMag-std()_Avrg` = mean(`fBodyBodyGyroJerkMag-std()`)
 )
+write.table(TidySetAvr,"TidySetAvr",row.name=FALSE)
+
 
 print(TidySet)
